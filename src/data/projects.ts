@@ -52,11 +52,63 @@ This project reinforced my passion for <span style="font-weight: 550;">UI/UX des
     ],
   },
   portfolio: {
-    title: 'Personal Portfolio',
+    title: 'Personal Portfolio – Web Design & UI/UX Showcase',
     image: '/portfolio.png',
-    description:
-      'This portfolio website was designed in Figma and built with Next.js and TailwindCSS...',
-    skills: ['Next.js', 'TailwindCSS', 'Figma', 'Web Design', 'UI/UX Design'],
+    description: `For my personal portfolio, I wanted to create a platform that not only showcases my work but also reflects my design sensibilities and approach to UI/UX. I approached the project as a combination of research, design, and front-end development, ensuring the final site was visually engaging, intuitive, and responsive.<br/><br/>
+
+💡 <span style="font-weight: bold;">Research & Inspiration</span><br/>
+Before designing, I spent time researching web templates, color schemes, and typography to define the look and feel I wanted for my portfolio. This phase helped me:<br/><br/>
+
+Identify design trends that resonated with my aesthetic.<br/>
+
+Choose a cohesive color palette and typography that enhanced readability and visual appeal.<br/>
+
+Plan layouts and flows that would highlight my work effectively.<br/><br/>
+
+🎨 <span style="font-weight: bold;">UI/UX Design</span><br/>
+Using Figma, I designed the entire <a href="https://www.figma.com/design/TD2Fz5oyeppFBE0JRfQECM/Katherine-Gonzalez?node-id=13-58&t=4z7HjIxAEzHme5i1-0" target="_blank" rel="noopener noreferrer" style="
+      color: #223843;
+      text-decoration: underline;"
+    >portfolio</a> , focusing on creating a user-friendly, visually compelling experience:<br/>
+
+Layout & hierarchy: Structured content to guide visitors’ attention to projects and skills.<br/>
+
+Interactive elements: Planned subtle animations and hover states to enhance engagement.<br/>
+
+Consistency: Maintained uniform styling for buttons, typography, and spacing across pages.<br/>
+
+Visual storytelling: Ensured images, text, and components worked together to tell the story of my work and capabilities.<br/><br/>
+
+🖥️ <span style="font-weight: bold;">Front-End Development</span><br/>
+I brought my designs to life using Next.js and TypeScript, leveraging my software engineering skills to create a fully functional, responsive site:<br/>
+
+Component-based architecture: Built reusable components to maintain visual consistency and efficiency.<br/>
+
+Responsive design: Ensured the portfolio looked great on desktop, tablet, and mobile.<br/>
+
+Performance & optimization: Focused on fast loading times and smooth interactions to improve user experience.<br/><br/>
+
+🚀 <span style="font-weight: bold;">Outcome & Takeaways</span><br/>
+This project allowed me to combine my love for UI/UX design with front-end development. I learned how to:<br/>
+
+Translate a visual concept into a functional website.<br/>
+
+Balance aesthetic polish with usability and technical performance.<br/>
+
+Apply research insights to create cohesive, intentional design decisions.<br/>
+
+Use modern web tools to execute a design from concept to deployment.<br/><br/>
+
+This portfolio reflects my passion for creating interfaces that are beautiful, intuitive, and human-centered, highlighting both my design thinking and technical execution skills.`,
+    skills: [
+      'UI/UX Design',
+      'Front-end Development',
+      'Figma',
+      'Next.js',
+      'TypeScript',
+      'Responsive Web Design',
+      'Visual Design',
+    ],
   },
   dashboard: {
     title: 'Analytics Dashboard',
