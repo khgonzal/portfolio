@@ -25,9 +25,12 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         />
       </div>
 
-      <div className="max-w-3xl text-center">
-        <h1 className="text-4xl text-primary font-bold mb-4">{project.title}</h1>
-        <p className="text-lg text-primary leading-relaxed">{project.description}</p>
+      <div className="max-w-3xl">
+        <h1 className="text-4xl text-primary font-bold mb-4 text-center">{project.title}</h1>
+        <p
+          className="text-lg text-primary leading-relaxed"
+          dangerouslySetInnerHTML={{ __html: project.description }}
+        ></p>
       </div>
 
       <div className="max-w-3xl text-center">

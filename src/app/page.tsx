@@ -49,7 +49,7 @@ export default function Home() {
             internet. That's why I believe soft skills are just as important as technical skills
             when it comes to efficiently tackling problems and creating solutions. These are what
             set people apart from the crowd - the ability to work together without fear of judgment
-            or asking the wrong questions; transparency and vulnerability in the rawest form.
+            or asking the wrong questions; leading with transparency and vulnerability.
           </p>
         </div>
       </section>
@@ -66,8 +66,8 @@ export default function Home() {
                 md:overflow-x-scroll md:overflow-y-visible 
                 overflow-y-auto"
           >
-            <Widget projectName="Moderna" />
-            <Widget />
+            <Widget image="/moderna.png" projectName="Moderna" />
+            <Widget image="/portfolio.png" projectName="Portfolio" />
             <Widget />
           </div>
         </div>
