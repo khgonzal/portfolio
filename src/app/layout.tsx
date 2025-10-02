@@ -15,8 +15,25 @@ const hedvigSans = Hedvig_Letters_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Katherine Gonzalez's portfolio",
-  description: "Katherine Gonzalez's portfolio",
+  title: 'Katherine Gonzalez | Portfolio',
+  description:
+    'UI/UX & Web Designer & Front-End Developer passionate about bringing visions to life.',
+  openGraph: {
+    type: 'website',
+    url: 'https://localhost:3000',
+    title: 'Katherine Gonzalez | Portfolio',
+    description:
+      'UI/UX & Web Designer & Front-End Developer passionate about bringing visions to life.',
+    siteName: 'Katherine Gonzalez Portfolio',
+    images: [
+      {
+        url: '/favicon.ico',
+        width: 1200,
+        height: 630,
+        alt: 'Katherine Gonzalez Portfolio',
+      },
+    ],
+  },
 }
 
 export const generateViewport = (): Viewport => {
