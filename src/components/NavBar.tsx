@@ -18,7 +18,7 @@ export default function NavBar() {
         <li>
           <Link
             href="/#connect"
-            className="inline-block bg-secondary text-primary px-2 py-2 rounded-lg md:hover:bg-gray md:transition-colors active:bg-gray cursor-pointer"
+            className="inline-block bg-secondary text-primary px-2 py-2 rounded-lg md:hover:bg-gray md:transition-colors active:bg-gray cursor-pointer md:font-bold"
           >
             Let's connect
           </Link>

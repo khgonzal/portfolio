@@ -10,9 +10,8 @@ export const Widget: React.FC<WidgetProps> = ({
   image = '/stockphoto.png',
   projectName = 'coming soon!',
 }) => {
-  console.log(projectName)
   return (
-    <Link href={`/project/${projectName}`}>
+    <Link href={`/project/${projectName.toLowerCase()}`}>
       <div
         className={
           'bg-secondary md:hover:bg-gray active:bg-gray md:rounded-[96px] rounded-[36px] border-4 border-accent shadow-md md:w-[360px] md:h-[540px] w-[270px] h-[180px] md:transition-colors md:duration-300 cursor-pointer'
