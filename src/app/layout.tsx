@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Hedvig_Letters_Serif, Hedvig_Letters_Sans } from 'next/font/google'
 import './globals.css'
 import NavBar from '@/components/NavBar'
+import { Analytics } from '@vercel/analytics/next'
 
 const hedvigSerif = Hedvig_Letters_Serif({
   variable: '--font-hedvig-serif',
@@ -57,6 +58,7 @@ export default function RootLayout({
       >
         <NavBar />
         <main>{children}</main>
+        <Analytics />
       </body>
     </html>
   )
