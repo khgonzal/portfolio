@@ -24,10 +24,10 @@ We approached the project as a combination of UI/UX design and development. Our 
 
 <img src="/star.png" width="20" height="20" style="display:inline-block; margin-right:6px;" /><span style="font-weight: bold;">UI/UX Focus</span><br/>
 A core part of my role was designing the interface with the end user in mind:<br/>
-- <span style="font-weight: 550;">User-centered design:</span> Ensuring that every element, from color scheme to spacing to button placement, made the application intuitive for scientists, many of whom were not familiar with digital tools.<br/>
-- <span style="font-weight: 550;">Visual hierarchy:</span> Organizing information so critical data was immediately clear, while less essential details were visually secondary.<br/>
-- <span style="font-weight: 550;">Consistency and branding:</span> Aligning the UI with Moderna’s design scheme while maintaining nearly full creative control over layout, colors, and component styling.<br/>
-- <span style="font-weight: 550;">Accessibility:</span> Designing interfaces that were easy to navigate and readable for all users, regardless of technical comfort.<br/><br/>
+- <span style="font-weight: bold;">User-centered design:</span> Ensuring that every element, from color scheme to spacing to button placement, made the application intuitive for scientists, many of whom were not familiar with digital tools.<br/>
+- <span style="font-weight: bold;">Visual hierarchy:</span> Organizing information so critical data was immediately clear, while less essential details were visually secondary.<br/>
+- <span style="font-weight: bold;">Consistency and branding:</span> Aligning the UI with Moderna’s design scheme while maintaining nearly full creative control over layout, colors, and component styling.<br/>
+- <span style="font-weight: bold;">Accessibility:</span> Designing interfaces that were easy to navigate and readable for all users, regardless of technical comfort.<br/><br/>
 
 <img src="/star.png" width="20" height="20" style="display:inline-block; margin-right:6px;" /><span style="font-weight: bold;">Bringing Design to Life</span><br/>
 I handled both UI design and front-end implementation, ensuring that what we created translated directly into functional, responsive components. This included:<br/>
@@ -42,7 +42,7 @@ Through this project, I gained first-hand experience designing interfaces for co
 - Prioritize usability and clarity while maintaining creative freedom.<br/>
 - Translate user feedback into concrete design improvements that enhance workflow efficiency.<br/><br/>
 
-This project reinforced my passion for <span style="font-weight: 550;">UI/UX and web design</span>, particularly in building interfaces that are not just functional but also engaging, clear, and keep the end user in mind.`,
+This project reinforced my passion for <span style="font-weight: bold;">UI/UX and web design</span>, particularly in building interfaces that are not just functional but also engaging, clear, and keep the end user in mind.`,
     skills: [
       'UI/UX Design',
       'Front-end Development',
@@ -64,15 +64,15 @@ I began by researching web templates, color schemes, and typography to establish
 
 <img src="/star.png" width="20" height="20" style="display:inline-block; margin-right:6px;" /><span style="font-weight: bold;">UI/UX Design</span><br/>
 Using Figma, I designed the entire <a href="https://www.figma.com/design/TD2Fz5oyeppFBE0JRfQECM/Katherine-Gonzalez?node-id=13-58&t=4z7HjIxAEzHme5i1-0" target="_blank" rel="noopener noreferrer" style="color: #223843; text-decoration: underline;">portfolio</a>, focusing on creating a visually compelling experience that communicates my vibe and design philosophy:<br/>
-- <span style="font-weight: 550;">Visual storytelling:</span> Integrated images, text, and components that conveyed the story of my work and capabilities.<br/>
-- <span style="font-weight: 550;">Layout & hierarchy:</span> Structured content to guide visitors’ attention naturally toward projects and skills.<br/>
-- <span style="font-weight: 550;">Consistency:</span> Maintained uniform styling for typography, buttons, and spacing to create cohesion.<br/><br/>
+- <span style="font-weight: bold;">Visual storytelling:</span> Integrated images, text, and components that conveyed the story of my work and capabilities.<br/>
+- <span style="font-weight: bold;">Layout & hierarchy:</span> Structured content to guide visitors’ attention naturally toward projects and skills.<br/>
+- <span style="font-weight: bold;">Consistency:</span> Maintained uniform styling for typography, buttons, and spacing to create cohesion.<br/><br/>
 
 <img src="/star.png" width="20" height="20" style="display:inline-block; margin-right:6px;" /><span style="font-weight: bold;">Front-End Development</span><br/>
 I translated my designs into a fully functional, responsive website using Next.js and TypeScript:<br/>
-- <span style="font-weight: 550;">Component-based architecture:</span> Built reusable components to ensure consistency and scalability.<br/>
-- <span style="font-weight: 550;">Responsive design:</span> Optimized layouts for desktop, tablet, and mobile devices.<br/>
-- <span style="font-weight: 550;">Performance & optimization:</span> Focused on smooth interactions and simple flows for an effortless user experience.<br/><br/>
+- <span style="font-weight: bold;">Component-based architecture:</span> Built reusable components to ensure consistency and scalability.<br/>
+- <span style="font-weight: bold;">Responsive design:</span> Optimized layouts for desktop, tablet, and mobile devices.<br/>
+- <span style="font-weight: bold;">Performance & optimization:</span> Focused on smooth interactions and simple flows for an effortless user experience.<br/><br/>
 
 <img src="/star.png" width="20" height="20" style="display:inline-block; margin-right:6px;" /><span style="font-weight: bold;">Outcome & Takeaways</span><br/>
 This project brought together my love for UI/UX design and front-end development while also allowing me to explore how design can capture and communicate essence. By practicing on myself first, I strengthened my ability to:<br/>

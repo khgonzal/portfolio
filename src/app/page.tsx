@@ -100,8 +100,7 @@ export default function Home() {
         <div className="flex flex-col items-center gap-8">
           <h1 className="font-serif text-primary md:text-4xl text-2xl">projects</h1>
           <motion.div
-            className="flex md:flex-row flex-col items-center gap-12 
-                md:overflow-x-scroll md:overflow-y-visible 
+            className="flex md:flex-row flex-col items-center gap-12 md:overflow-y-visible 
                 overflow-y-auto"
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}

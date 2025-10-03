@@ -37,7 +37,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
       <div className="max-w-3xl">
         <h1 className="text-4xl text-primary font-bold mb-4 text-center">{project.title}</h1>
         <p
-          className="text-lg text-primary leading-relaxed"
+          className="text-lg text-primary leading-relaxed font-sans"
           dangerouslySetInnerHTML={{ __html: project.description }}
         ></p>
       </div>
@@ -46,7 +46,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <h2 className="text-2xl font-semibold mb-4 text-primary">Skills Used</h2>
         <ul className="flex flex-wrap gap-3">
           {project.skills.map((skill, i) => (
-            <li key={i} className="px-4 py-2 bg-accent text-white rounded-md text-sm font-bold">
+            <li
+              key={i}
+              className="px-4 py-2 bg-accent font-sans text-white rounded-md text-sm font-bold"
+            >
               {skill}
             </li>
           ))}
