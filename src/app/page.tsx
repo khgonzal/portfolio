@@ -80,9 +80,10 @@ export default function Home() {
             In today's world, most answers can be found with AI or a quick internet search. That's
             why I believe soft skills are <span className="italic">just as important</span> as
             technical skills when it comes to efficiently tackling problems and creating solutions.
-            What sets people apart is their ability to lead with transparency and vulnerability,
-            paired with a clear understanding of the challenges they are trying to solve. When you
-            choose the right people - <span className="font-bold">everybody wins.</span>
+            My approach is rooted in transparency and vulnerability, paired with a clear
+            understanding of the challenges at hand. I strive to create an environment where
+            everyone feels welcome, and believe that when you work with the right people -{' '}
+            <span className="font-bold">everybody wins.</span>
           </p>
         </motion.div>
       </motion.section>
