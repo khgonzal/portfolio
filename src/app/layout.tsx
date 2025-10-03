@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'UI/UX & Web Designer & Front-End Developer passionate about bringing visions to life.',
   openGraph: {
     type: 'website',
-    url: 'https://localhost:3000',
+    url: 'www.khgonzalez.com',
     title: 'Katherine Gonzalez | Portfolio',
     description:
       'UI/UX & Web Designer & Front-End Developer passionate about bringing visions to life.',
