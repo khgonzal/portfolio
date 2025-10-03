@@ -30,7 +30,7 @@ export default function Home() {
           viewport={{ once: false }}
         >
           <h1 className="font-serif text-primary md:text-5xl text-3xl">
-            Hi! I'm Katherine Gonzalez
+            Hi! I&apos;m Katherine Gonzalez
           </h1>
 
           <motion.p
@@ -40,7 +40,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.6 }}
             viewport={{ once: false }}
           >
-            I'm so glad you're here
+            I&apos;m so glad you&apos;re here
           </motion.p>
 
           <Link
@@ -77,13 +77,13 @@ export default function Home() {
             I strongly believe in communication + collaboration as the most effective solution
           </h2>
           <p className="font-sans text-secondary text-lg leading-relaxed">
-            In today's world, most answers can be found with AI or a quick internet search. That's
-            why I believe soft skills are <span className="italic">just as important</span> as
-            technical skills when it comes to efficiently tackling problems and creating solutions.
-            My approach is rooted in transparency and vulnerability, paired with a clear
-            understanding of the challenges at hand. I strive to create an environment where
-            everyone feels welcome, and believe that when you work with the right people -{' '}
-            <span className="font-bold">everybody wins.</span>
+            In today&apos;s world, most answers can be found with AI or a quick internet search.
+            That&apos;s why I believe soft skills are{' '}
+            <span className="italic">just as important</span> as technical skills when it comes to
+            efficiently tackling problems and creating solutions. My approach is rooted in
+            transparency and vulnerability, paired with a clear understanding of the challenges at
+            hand. I strive to create an environment where everyone feels welcome, and believe that
+            when you work with the right people - <span className="font-bold">everybody wins.</span>
           </p>
         </motion.div>
       </motion.section>
@@ -125,7 +125,9 @@ export default function Home() {
         transition={{ duration: 1 }}
       >
         <div className="row-start-1 col-start-1 flex flex-col items-start">
-          <h1 className="font-serif text-secondary italic font-bold text-6xl">Let's connect</h1>
+          <h1 className="font-serif text-secondary italic font-bold text-6xl">
+            Let&apos;s connect
+          </h1>
         </div>
         <motion.div
           className="row-start-2 col-start-2 flex flex-col gap-10 md:pl-24"

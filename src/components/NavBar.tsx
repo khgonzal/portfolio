@@ -20,7 +20,7 @@ export default function NavBar() {
             href="/#connect"
             className="inline-block bg-secondary text-primary px-2 py-2 rounded-lg md:hover:bg-gray md:transition-colors active:bg-gray cursor-pointer md:font-bold"
           >
-            Let's connect
+            Let&apos;s connect
           </Link>
         </li>
       </ul>
