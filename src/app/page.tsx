@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="w-screen h-screen flex md:flex-row flex-col md:gap-24 gap-6 bg-secondary md:px-36 px-4 md:pb-24 p-8">
+      <section className="w-screen h-dvh flex md:flex-row flex-col md:gap-24 gap-6 bg-secondary md:px-36 px-4 md:pb-24 p-8">
         <motion.div
           className="flex items-center justify-center"
           initial={{ opacity: 0, x: -50 }}
@@ -54,7 +54,7 @@ export default function Home() {
 
       {/* Info Section */}
       <motion.section
-        className="w-screen h-screen bg-primary md:py-24 md:px-36 p-8 md:grid md:grid-rows-2 md:grid-cols-2 md:gap-6 flex flex-col gap-24"
+        className="w-screen min-h-dvh bg-primary md:py-24 md:px-36 p-8 md:grid md:grid-rows-2 md:grid-cols-2 md:gap-6 flex flex-col gap-24"
         id="info"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -90,7 +90,7 @@ export default function Home() {
 
       {/* Project Section */}
       <motion.section
-        className="w-screen h-screen bg-secondary md:py-24 md:px-36 p-12 overflow-y-hidden"
+        className="w-screen min-h-dvh bg-secondary md:py-24 md:px-36 p-12 overflow-y-hidden"
         id="projects"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -116,7 +116,7 @@ export default function Home() {
 
       {/* Contact Section */}
       <motion.section
-        className="w-screen h-screen bg-primary md:p-36 p-12 md:grid md:grid-rows-2 md:grid-cols-2 gap-8 flex flex-col"
+        className="w-screen min-h-dvh bg-primary md:p-36 p-12 md:grid md:grid-rows-2 md:grid-cols-2 gap-8 flex flex-col"
         id="connect"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
