@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function NavBar() {
   return (
-    <nav className="w-screen sticky top-0 z-50 flex items-center justify-between p-4 bg-primary shadow-[0_4px_4px_var(--color-accent)]">
+    <nav className="sticky top-0 z-50 flex items-center justify-between p-4 bg-primary shadow-[0_4px_4px_var(--color-accent)]">
       <div className="text-xl font-serif color-secondary">
         <Link href="/" className="md:hover:text-gray active:text-gray">
           Katherine Gonzalez
