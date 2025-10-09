@@ -131,7 +131,7 @@ export default function Home() {
         transition={{ duration: 1 }}
       >
         <div className="flex flex-col items-center gap-8">
-          <h1 className="font-serif text-primary md:text-4xl text-2xl">projects</h1>
+          <h1 className="font-serif text-primary md:text-4xl text-2xl">My projects</h1>
           <motion.div
             className="flex md:flex-row flex-col items-center gap-12 overflow-x-auto md:overflow-x-visible"
             initial={{ x: -100, opacity: 0 }}

@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 export default function NotFound() {
   return (
-    <section className="w-screen h-screen flex flex-col gap-6 bg-secondary md:px-36 px-4 md:pb-24 p-8 items-center justify-center">
+    <section className="w-full h-screen flex flex-col gap-6 bg-secondary md:px-36 px-4 md:pb-24 p-8 items-center justify-center">
       <motion.div
         className="flex items-center justify-center"
         animate={{
@@ -29,7 +29,7 @@ export default function NotFound() {
         <Image src="/big-star.png" alt="Star" width={150} height={150} />
       </motion.div>
       <h1 className="font-serif text-primary md:text-5xl text-3xl font-bold">Uh oh!</h1>
-      <div className="font-serif italic text-accent text-2xl">
+      <div className="font-serif italic text-accent text-2xl text-center">
         This page is still a work in progress
       </div>
       <Link
