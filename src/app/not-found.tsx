@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 export default function NotFound() {
   return (
-    <section className="w-full h-screen flex flex-col gap-6 bg-secondary md:px-36 px-4 md:pb-24 p-8 items-center justify-center">
+    <section className="w-full min-h-dvh flex flex-col gap-6 bg-secondary md:px-36 px-4 md:pb-24 p-8 items-center justify-center">
       <motion.div
         className="flex items-center justify-center"
         animate={{
