@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio – Katherine Gonzalez
+
+This is my personal portfolio website — [www.khgonzalez.com](https://www.khgonzalez.com) — built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
+It’s a space to showcase my work, design philosophy, and projects that blend creativity with functionality.
+
+---
 
 ## Getting Started
 
@@ -14,23 +19,42 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the main page by modifying `app/page.tsx`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Built With
 
-To learn more about Next.js, take a look at the following resources:
+- **[Next.js](https://nextjs.org/)** – React framework for production-grade apps
+- **[TypeScript](https://www.typescriptlang.org/)** – Static typing for cleaner, safer code
+- **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first styling for responsive design
+- **[Vercel](https://vercel.com/)** – Deployment and hosting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+- Clean, minimalist UI with smooth animations
+- Fully responsive across all devices
+- Modular, maintainable code structure
+- SEO-optimized and performant
+- Designed with accessibility in mind
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Purpose
+
+This site represents my approach to front-end design and development — intentional, user-centered, and visually cohesive.
+My goal is to bring brands and ideas to life through thoughtful, functional design.
+
+---
+
+## Contact
+
+If you’d like to connect or collaborate:
+
+- **Website:** [www.khgonzalez.com](https://www.khgonzalez.com)
+- **Email:** [khgonzalez0@gmail.com](mailto:khgonzalez0@gmail.com)
+- **LinkedIn:** [www.linkedin.com/in/katherine-gonzalez-4b61ab73/](https://www.linkedin.com/in/katherine-gonzalez-4b61ab73/)
