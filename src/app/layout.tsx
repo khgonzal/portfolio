@@ -3,6 +3,7 @@ import { Hedvig_Letters_Serif, Hedvig_Letters_Sans } from 'next/font/google'
 import './globals.css'
 import NavBar from '@/components/NavBar'
 import { Analytics } from '@vercel/analytics/next'
+import Script from 'next/script'
 
 const hedvigSerif = Hedvig_Letters_Serif({
   variable: '--font-hedvig-serif',
@@ -53,6 +54,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Analytics runs on the client */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-TPF6KEJ1BJ"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-TPF6KEJ1BJ', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
+      </head>
       <body
         className={`${hedvigSerif.variable} ${hedvigSans.variable} antialiased overflow-x-hidden`}
       >
