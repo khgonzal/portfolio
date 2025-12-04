@@ -13,14 +13,17 @@ export const projects: ProjectsProps = {
   moderna: {
     title: 'Moderna – Vaccine Lifecycle Tracking Application',
     image: '/moderna.png',
-    description: `At Moderna, I was part of a two-person development team responsible for designing and building a web application that scientists used to track the lifecycle of vaccines. This was a high traffic application, and while functionality was critical, creating an intuitive and user-friendly interface was just as important.<br/><br/>
+    description: `At Moderna, I was part of a two-person development team responsible for designing and building a web application that scientists used to track the lifecycle of vaccines. This was a high traffic, data heavy application, and while functionality was critical, creating an intuitive and user-friendly interface was just as important.<br/><br/>
+
+    Since I no longer have access to Moderna’s internal systems or data, I recreated a proof of concept (POC) that highlights one of the core features I built for the Development App. This POC focuses on the vaccine lifecycle tracking table—which gave users a clear, at-a-glance view of each program’s progress and allowed them to drill down into a detailed product dashboard. The dashboard served as a centralized source of truth for vaccine and manufacturing information, with complex permissioning and conditional logic ensuring users saw only the data relevant to their role.<br/><br/>
 
 <img src="/star.png" width="20" height="20" style="display:inline-block; margin-right:6px;" /><span style="font-weight: bold;">Our Design Process</span><br/>
 We approached the project as a combination of UI/UX design and development. Our workflow included:<br/>
 1. Collaborating with end users to understand their workflows and pain points.<br/>
-2. Designing interactive prototypes that illustrated layouts, flows, and data visualization.<br/>
-3. Testing prototypes with users and iterating to improve usability and clarity.<br/>
-4. Translating prototypes into functional interfaces with polished visual design.<br/><br/>
+2. Working with business operations to ensure the features we were creating aligned with overarching business goals and constraints.<br/>
+3. Designing interactive prototypes that illustrated layouts, flows, and data visualization.<br/>
+4. Testing prototypes with users and iterating to improve usability and clarity.<br/>
+5. Translating prototypes into functional interfaces with polished visual design.<br/><br/>
 
 <img src="/star.png" width="20" height="20" style="display:inline-block; margin-right:6px;" /><span style="font-weight: bold;">UI/UX Focus</span><br/>
 A core part of my role was designing the interface with the end user in mind:<br/>
@@ -30,19 +33,18 @@ A core part of my role was designing the interface with the end user in mind:<br
 - <span style="font-weight: bold;">Accessibility:</span> Designing interfaces that were easy to navigate and readable for all users, regardless of technical comfort.<br/><br/>
 
 <img src="/star.png" width="20" height="20" style="display:inline-block; margin-right:6px;" /><span style="font-weight: bold;">Bringing Design to Life</span><br/>
-I handled both UI design and front-end implementation, ensuring that what we created translated directly into functional, responsive components. This included:<br/>
+I handled both design and front-end implementation, ensuring that what we created translated directly into functional, responsive components. This included:<br/>
 - Designing reusable components that maintained consistency across the application.<br/>
-- Implementing interactions and flows that enhanced usability without compromising performance.<br/>
+- Implementing work flows that enhanced usability without compromising performance.<br/>
 - Balancing aesthetics with the practical needs of users who relied on the application daily.<br/><br/>
 
 <img src="/star.png" width="20" height="20" style="display:inline-block; margin-right:6px;" /><span style="font-weight: bold;">Outcome & Takeaways</span><br/>
 Through this project, I gained first-hand experience designing interfaces for complex and critical applications. I learned how to:<br/>
 - Think like the end user to create intuitive, elegant interfaces.<br/>
 - Merge design thinking with front-end development for cohesive UI/UX.<br/>
-- Prioritize usability and clarity while maintaining creative freedom.<br/>
 - Translate user feedback into concrete design improvements that enhance workflow efficiency.<br/><br/>
 
-This project reinforced my passion for <span style="font-weight: bold;">UI/UX and web design</span>, particularly in building interfaces that are not just functional but also engaging, clear, and keep the end user in mind.`,
+This project reinforced my passion for UI/UX and web design, particularly in building interfaces that are not just functional but also engaging and keep the end user in mind.`,
     skills: [
       'UI/UX Design',
       'Front-end Development',

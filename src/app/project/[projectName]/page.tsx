@@ -36,6 +36,16 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
       <div className="max-w-3xl">
         <h1 className="text-4xl text-primary font-bold mb-4 text-center">{project.title}</h1>
+        {projectName.toLowerCase() === 'moderna' && (
+          <div className="max-w-3xl text-center mt-10">
+            <Link
+              href={`/project/${projectName.toLowerCase()}/poc`}
+              className="inline-block px-6 py-3 mb-6 bg-accent text-white rounded-md font-bold hover:bg-accent/80 shadow-md"
+            >
+              View Development App Proof of Concept
+            </Link>
+          </div>
+        )}
         <p
           className="text-lg text-primary leading-relaxed font-sans"
           dangerouslySetInnerHTML={{ __html: project.description }}
