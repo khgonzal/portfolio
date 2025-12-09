@@ -40,7 +40,7 @@ export default function POCPage({ params }: { params: Promise<{ projectName: str
     <section className="min-h-screen bg-secondary flex flex-col space-y-12 px-4 py-12 md:px-48 md:py-24">
       <Link
         href="/project/moderna"
-        className="absolute top-10 left-4 md:top-24 md:left-24 flex items-center text-primary font-sans hover:text-gray transition"
+        className="absolute md:top-24 md:left-24 top-22 flex items-center text-primary font-sans hover:text-gray transition"
       >
         <BiArrowBack className="w-6 h-6 mr-2" />
         <span className="font-semibold">Back</span>

@@ -101,4 +101,45 @@ Ultimately, this portfolio reflects my passion for creating interfaces that are 
     description: 'Built an interactive dashboard for visualizing real-time business analytics...',
     skills: ['React', 'TypeScript'],
   },
+  hqo: {
+    title: 'HqO – Design System Contributions & Component Architecture',
+    image: '/hqo.png',
+    description: `At HqO, I worked as a Front-End Engineer on a cross-functional team, collaborating closely with designers and product owners on an existing design system that fed into multiple product interfaces. While the design system was already in place, it was primarily maintained by developers and required continuous refinement and technical stewardship as new features were introduced in their internal application.<br/><br/>
+
+Whenever new features required additional UI patterns, I was responsible for designing, building, testing, and integrating those components into the shared library. This ensured that new components were not just feature-specific, but reusable, scalable, and aligned with system-wide standards. In addition to new work, I regularly refactored existing components to improve flexibility, remove unnecessary constraints, and correct places where props were overly static or tightly coupled to a single use case.<br/><br/>
+
+<img src="/star.png" width="20" height="20" style="display:inline-block; margin-right:6px;" /><span style="font-weight: bold;">Design–Engineering Collaboration</span><br/>
+My role functioned at the intersection of design and development. I partnered with designers to interpret evolving design needs and worked with product owners to ensure system updates aligned with upcoming roadmap work. This included:<br/>
+1. Reviewing design intent and translating it into scalable component architecture.<br/>
+2. Advising on feasibility, reusability, and edge cases before implementation.<br/>
+3. Ensuring new components aligned with existing visual patterns and interaction standards.<br/><br/>
+
+<img src="/star.png" width="20" height="20" style="display:inline-block; margin-right:6px;" /><span style="font-weight: bold;">Component Reusability & Technical Stewardship</span><br/>
+A major focus of my contributions was improving long-term reusability:<br/>
+- Prop architecture: Refactoring components where props had been implemented as static values, restructuring them to support flexible, multi-context use cases.<br/>
+- Bug fixes & system consistency: Proactively identifying and resolving inconsistencies across the library.<br/>
+- Pattern alignment: Ensuring components followed consistent design and interaction patterns as the system evolved.<br/><br/>
+
+<img src="/star.png" width="20" height="20" style="display:inline-block; margin-right:6px;" /><span style="font-weight: bold;">Bringing Design Systems Into Production</span><br/>
+Beyond building new components, I focused on maintaining system integrity at scale by:<br/>
+- Testing components across multiple use cases before library inclusion.<br/>
+- Ensuring that updates did not introduce regressions into existing products.<br/>
+- Balancing designer intent with engineering constraints to ship components that were both polished and practical for real-world use.<br/><br/>
+
+<img src="/star.png" width="20" height="20" style="display:inline-block; margin-right:6px;" /><span style="font-weight: bold;">Outcome & Takeaways</span><br/>
+This experience strengthened my approach to design systems as living products rather than static libraries. I gained deep experience in:<br/>
+- Translating evolving product needs into scalable UI systems.<br/>
+- Building components with long-term maintainability and flexibility in mind.<br/>
+- Acting as a design–engineering bridge to ensure systems served both creative and technical needs.<br/><br/>
+
+This work sharpened my perspective on system thinking, reusability, and the importance of technical craftsmanship in sustaining high-quality design at scale.`,
+    skills: [
+      'Design Systems',
+      'Component Architecture',
+      'Cross-Functional Collaboration',
+      'Reusable UI Patterns',
+      'Front-End Engineering',
+      'UI Consistency & Quality',
+    ],
+  },
 }

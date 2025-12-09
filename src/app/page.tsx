@@ -141,7 +141,7 @@ export default function Home() {
           >
             <Widget image="/portfolio.png" projectName="Portfolio" />
             <Widget image="/moderna.png" projectName="Moderna" />
-            <Widget />
+            <Widget image="/hqo.png" projectName="HqO" />
           </motion.div>
         </div>
       </motion.section>
